@@ -7,7 +7,6 @@ const placesToTravel = [
     {id: 59, name: 'Madagascar'}
 ]
 
-
 for (let index = placesToTravel.length-1; index >=0 ; index--) {
     if (placesToTravel[index].id==40 || placesToTravel[index].id==11) {
         placesToTravel.splice(index, 1)
